@@ -92,7 +92,10 @@
 						$("tr:eq(0)").html("<th>메일 인증이 완료 되었습니다.<th>" );
 						$("tr:eq(1)").html("<th> 비밀번호는 " + data.pass + " 입니다.</th>");
 						alert("이메일 인증 확인 완료!");
-						sessionStorage.clear();
+						
+						// 2021-04-08 서버에서 세션에 이메일 인증코드 제거 하는 구문 추가함
+						// 그러므로 삭제
+						// sessionStorage.clear();
 						
 					}
 					else {

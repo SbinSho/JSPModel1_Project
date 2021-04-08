@@ -16,6 +16,7 @@
 	
 	if(email_auth.equals(session_auth)){
 		
+		
 		MemberDAO dao = new MemberDAO();
 		String pass = dao.passwd_find(id, name, email);
 		
@@ -24,10 +25,12 @@
 		obj.put("result", 1);
 		obj.put("pass", pass);
 		
+		// 2021-04-08 수정 ( 이메일 인증키 확인 후 제거 추가 )
+		session.removeAttribute("key");
 		response.setContentType("application/json");
 		
-		out.clear();
 		out.print(obj);
+		out.clear();
 	}
 	
 	else {
