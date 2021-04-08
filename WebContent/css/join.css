@@ -1,0 +1,20 @@
+@CHARSET "UTF-8";
+
+.join-se1 {
+	border: 2px solid black;
+	width: 900px;
+	margin: auto;
+}
+
+.join-art {
+	width: 900px;
+	margin: auto;
+}
+
+.form-table{
+	margin: auto;
+	border-spacing: 10px;
+}
+
+
+

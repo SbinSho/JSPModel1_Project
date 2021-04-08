@@ -1,0 +1,33 @@
+@CHARSET "UTF-8";
+
+.login-se1 {
+	border: 2px solid black;
+	width: 900px;
+	margin: auto;
+}
+
+.login-se1 {
+	margin-top: 6em;
+}
+
+.login-art {
+	width: 900px;
+	margin: auto;
+}
+
+.form-table{
+	margin: auto;
+	border-spacing: 10px;
+}
+
+.ip_search1 {
+	margin-left: 6em;
+	margin-bottom : 2em;
+	font-size: 14px;
+}
+
+.ip_search2 {
+	margin-left: 1em;
+	margin-bottom : 2em;
+	font-size: 14px;
+}

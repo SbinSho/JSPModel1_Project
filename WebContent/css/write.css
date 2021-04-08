@@ -1,0 +1,43 @@
+@CHARSET "UTF-8";
+
+.write-se {
+	
+	width: 1000px;
+	margin: auto;
+	
+}
+
+.write-from {
+	width : 700px;
+	margin : 50px auto;
+}
+
+.subject {
+	width: 365px;
+}
+
+table {
+	margin: auto;
+	border-spacing: 20px;
+}
+
+
+.write-subject{
+	width : 300px;
+	margin-left: 10.3em;
+	text-align: center;
+}
+
+textarea {
+	width:410px; 
+	height:600px;
+	resize:none;
+}
+
+.img_down{
+	width:auto; 
+	height: auto; 
+	max-width: 410px; 
+	max-height: 410px;
+}
+

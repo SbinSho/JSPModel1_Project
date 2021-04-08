@@ -1,0 +1,117 @@
+@CHARSET "UTF-8";
+
+.wrap {
+/* 	background-image:url('../img/012 청사포고양이_공공누리.jpg'); */
+/* 	background-size : 100% 960px; */
+/* 	background-repeat: no-repeat; */
+}
+
+.imgboard-se {
+	width: 1000px;
+	height: 1500px;
+	margin: auto;
+	text-align: center;
+	position: relative;
+}
+
+.banner_img{
+	width : 100%;
+	height: 100%;
+	margin: auto;
+}
+.top_img{
+	width: 100%;
+	height: 200px;
+}
+
+
+.imgboard-table{
+	margin: auto;
+	border-spacing: 0 10px;
+}
+
+.title {
+	border-bottom: 3px solid black;
+}
+
+.imgboard-co {
+	cursor:pointer;
+}
+
+.imgboard-co:HOVER{
+	background-color: gray;
+}
+
+.imgboard-co:HOVER>td{
+	color: white;
+}
+
+.img_content {
+
+	transform: scale(3);
+  	-webkit-transform: scale(1);
+  	-moz-transform: scale(1);
+  	-ms-transform: scale(1);
+  	-o-transform: scale(1);
+  	transition: all 0.3s ease-in-out;
+  	
+}
+
+.img_content:hover {
+  transform: scale(3);
+  -webkit-transform: scale(1.2);
+  -moz-transform: scale(1.2);
+  -ms-transform: scale(1.2);
+  -o-transform: scale(1.2);
+}
+
+.sum_img {
+	width: 80px;
+	height: 80px;
+	overflow:hidden 
+}
+	
+
+.imgboard-control>p{
+	text-align: center;
+}
+
+.imgboard-control>h4{
+	text-align: right;
+}
+
+.imgboard-control>p>a {
+	color: black;
+	text-decoration: none;
+	padding-left: 1em;
+}
+
+.imgboard-search  {
+	text-align: right;
+	margin-top: 2em;
+}
+
+.imgboard-search>input {
+	margin-right: 0.5em;
+}
+
+.imgboard_opt_text{
+	display: inline-block;
+	margin-top : 0.1em;
+}
+
+#search_text{
+	float: right;
+	display: inline-block;
+}
+
+.select_opt{
+	display: inline-block;
+	float: left;
+	margin-top : 0.1em;
+}
+
+.imgboard_search_button{
+	display: inline-block;
+	vertical-align: top;
+}

@@ -1,0 +1,71 @@
+@CHARSET "UTF-8";
+
+.databoard-se {
+	width: 1000px;
+	height: 900px;
+	margin: auto;
+	text-align: center;
+}
+
+.databoard-table{
+	margin: auto;
+	border-spacing: 0 10px;
+}
+
+.title {
+	border-bottom: 2px solid black;
+}
+
+.databoard-co {
+	cursor:pointer;
+}
+
+.databoard-co:HOVER {
+	background-color: gray;
+}
+
+.databoard-co:HOVER>td{
+	color: white;
+}
+
+.databoard-search  {
+	text-align: right;
+	margin-top: 2em;
+}
+
+.databoard-control>p{
+	text-align: center;
+}
+
+.databoard-control>h4{
+	text-align: right;
+}
+
+.databoard-control>p>a {
+	color: black;
+	text-decoration: none;
+	padding-left: 1em;
+}
+.databoard-control>p>a:HOVER {
+	color:red;
+}
+
+.databoard_opt_text{
+	display: inline-block;
+	margin-top : 0.1em;
+}
+#search_text{
+	float: right;
+	display: inline-block;
+}
+
+.select_opt{
+	display: inline-block;
+	float: left;
+	margin-top : 0.1em;
+}
+
+.databoard_search_button{
+	display: inline-block;
+	vertical-align: top;
+}

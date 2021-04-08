@@ -1,0 +1,95 @@
+@CHARSET "UTF-8"";
+
+.content-se1 {
+	width: 1000px;
+	height: 1000px;
+	margin: auto;
+}
+
+.content-se2{
+	width: 1000px;
+	height: 800px;
+	margin: auto;
+}
+
+.content-table{
+	margin: auto;
+	border-spacing: 20px;
+}
+
+th {
+	text-align: center;
+	border-bottom : 2px solid black;
+    margin-left: 5em;
+    width: 100px;
+}
+
+td {
+	border-bottom : 2px solid black;
+    margin-left: 5em;
+    width: 200px;
+}
+
+.content-search {
+	width: 880px;
+	margin: auto;
+	text-align: right;
+	
+}
+
+.content-cc2 {
+	width:880px;
+	height: 600px;
+}
+
+.content-comment {
+	width : 880px;
+	margin: auto;
+	margin-top: 1em;
+}
+
+.content-comment_box>textarea{
+	width: 880px;
+	height: 50px;
+	resize: none;
+}
+
+.content-comment_button{
+	text-align: right;
+}
+
+#cotent-dp {
+	height : 500px;
+	overflow: scroll;
+}
+
+.img_content1 {
+	width: 880px;
+	height: 400px;
+}
+
+
+.comment_id {
+	font-size: 16px;
+}
+
+
+.comment_date {
+	font-size: 16px;
+	color : #dcdcdc;
+}
+
+.comment_cmt {
+	font-size: 19px;
+}
+
+.del_div{
+	text-align: right;
+}
+
+textarea {
+	width:830px; 
+	height:50px;
+	resize:none;
+}
+

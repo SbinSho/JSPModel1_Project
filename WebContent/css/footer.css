@@ -1,0 +1,27 @@
+@CHARSET "UTF-8";
+
+
+.fo1 {
+	text-align: center;
+}
+
+
+.footer-font1 {
+	text-decoration: none;	
+	color: black;
+	font-size: 14px; 
+	font-weight: bold;
+/* 	font-family: 'Notable', sans-serif; */
+}
+
+.footer-font2 {
+	text-decoration: none;	
+	color: black;
+	font-size: 14px; 
+	font-weight: bold;
+/* 	font-family: 'Notable', sans-serif; */
+}
+
+.fo1>p>a:HOVER {
+	color: red;
+}

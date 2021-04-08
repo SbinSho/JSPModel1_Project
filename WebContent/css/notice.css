@@ -1,0 +1,22 @@
+@CHARSET "UTF-8";
+
+
+.notic-se {
+	width: 1000px;
+	height: 800px;
+	margin: auto;
+	text-align: center;
+}
+
+.board-table{
+	margin: auto;
+ 	border-spacing: 0 10px;
+}
+
+.title {
+	border-bottom: 2px solid black;
+}
+
+thead>tr>th{
+	border-bottom: 2px solid black;
+}

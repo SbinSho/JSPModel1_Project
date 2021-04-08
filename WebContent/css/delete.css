@@ -1,0 +1,31 @@
+@CHARSET "UTF-8";
+
+
+
+.delete-se {
+	width: 1000px;
+	height: 500px;
+	margin: auto;
+}
+
+
+
+.delete-from {
+	width : 700px;
+	margin:50px auto;
+
+}
+
+.delete-table {
+	margin: auto;
+}
+
+.delete-subject {
+	text-align: center;
+	
+}
+
+.btn1 {
+	margin-left: 3.5em;
+}
+
