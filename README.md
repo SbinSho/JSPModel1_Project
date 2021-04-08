@@ -25,16 +25,16 @@
 
 > 회원 시스템
 
-![회원_시스템](https://github.com/SbinSho/BusanTour/blob/master/img/회원시스템.png)
+![회원_시스템](https://github.com/SbinSho/JSPModel1_Project/blob/master/img/회원시스템.png)
 
 > 게시판 시스템
 
-![게시판_시스템](https://github.com/SbinSho/BusanTour/blob/master/img/게시판시스템.png)
+![게시판_시스템](https://github.com/SbinSho/JSPModel1_Project/blob/master/img/게시판시스템.png)
 
 
 ### ERD
 
-![ERD](https://github.com/SbinSho/BusanTour/blob/master/img/BUSANTOUR_ERD.png)
+![ERD](https://github.com/SbinSho/JSPModel1_Project/blob/master/img/BUSANTOUR_ERD.png)
 
 
 ### 구현 기능
@@ -59,14 +59,14 @@
 
 > 부산관광 최근 공지사항
 
-![jsoupimg](https://github.com/SbinSho/BusanTour/blob/master/img/jsoupimg.png)
+![jsoupimg](https://github.com/SbinSho/JSPModel1_Project/blob/master/img/jsoupimg.png)
 
 
 > Code ( Jsoup 사용 준비 )
 
 * /WebContent/notice/notice.jsp
 
-![jsoupCode1](https://github.com/SbinSho/BusanTour/blob/master/img/JsoupCode1.png)
+![jsoupCode1](https://github.com/SbinSho/JSPModel1_Project/blob/master/img/JsoupCode1.png)
 
 * Code 설명 ( jsoup 사용 준비 )
     * 프로젝트 WEB-INF -> lib 폴더에 jsoup.1.11.3.jar 파일 추가, 크롤링을 원하는 페이지 주소를 변수 link에 입력함
@@ -77,7 +77,7 @@
 
 * /WebContent/notice/notice.jsp
 
-![jsoupCode2](https://github.com/SbinSho/BusanTour/blob/master/img/JsoupCode2.png)
+![jsoupCode2](https://github.com/SbinSho/JSPModel1_Project/blob/master/img/JsoupCode2.png)
 
 * Code 설명 ( jsoup 사용 부분 )
     * 크롤링 페이지의 a태그에 연결된 주소는 현재 홈 페이지(BsanTour)에서 그대로 사용하면 링크주소가 맞지 않음
@@ -85,7 +85,7 @@
     * jsoup 사용 준비에서 선택한 table_tr의 첫 번째 td태그를 선택하여 Elements 객체인 tTag를 만들고, 현재 페이지에 맞춰 변수 str을 이용해 a 태그의 링크 주소 변환
     * 모든 작업이 끝난 tTag를 out.println()로 웹에 출력
 
-> [ Github에 저장된 Jsoup 코드 확인하기 ](https://github.com/SbinSho/BusanTour/blob/master/WebContent/notice/notice.jsp)    
+> [ Github에 저장된 Jsoup 코드 확인하기 ](https://github.com/SbinSho/JSPModel1_Project/blob/master/WebContent/notice/notice.jsp)    
     
 #### 2. JavaMail API를 이용한 메일 전송 기능
 - 개발 동기
@@ -96,14 +96,14 @@
 
 > 관리자 및 사용자간 메일 전송
 
-![adim_mail](https://github.com/SbinSho/BusanTour/blob/master/img/admin_mail.png)       
+![adim_mail](https://github.com/SbinSho/JSPModel1_Project/blob/master/img/admin_mail.png)       
       
       
 > Code ( 입력받은 데이터로 JavaMail API 사용 )
 
 * /WebContent/mail/sendMail.jsp
 
-![mail](https://github.com/SbinSho/BusanTour/blob/master/img/mail.png)
+![mail](https://github.com/SbinSho/JSPModel1_Project/blob/master/img/mail.png)
 
 * Code 설명 ( 입력받은 데이터로 JavaMail API 사용 )
     * 메일 전송시 필요한 설정들을 Properties 클래스를 작성하기 위해 객체를 선언, 그리고 메일을 전송하기 위해 필요한 설정을 객체에 입력
@@ -111,7 +111,7 @@
     * 메일과 관련된 작업을 처리하기 위해 새로운 세션을 생성하고, 메시지 작성을 위한 MimeMessag 객체 선언 후( 생성한 세션 ses를 객체 선언시 사용  ) 보내는 사람, 받는 사람, 제목, 내용과 같이 메일과 관련된 내용을 지정
     * 다 작성된 MimeMessage를 Transport의 send("작성이 완료된 메시지 객체")를 이용해 메일을 전송
 
-> [Github에 저장된 메일전송 코드 확인하기](https://github.com/SbinSho/BusanTour/blob/master/WebContent/mail/sendMail.jsp)
+> [Github에 저장된 메일전송 코드 확인하기](https://github.com/SbinSho/JSPModel1_Project/blob/master/WebContent/mail/sendMail.jsp)
         
 #### 3. JavaMail API를 이용한 비밀번호 찾기를 구현
 - 개발 동기
@@ -124,17 +124,17 @@
         
 > 비밀번호 찾기 기능
 
-![mail_service](https://github.com/SbinSho/BusanTour/blob/master/img/%EB%B9%84%EB%B0%80%EB%B2%88%ED%98%B8%EC%B0%BE%EA%B8%B0.PNG)
+![mail_service](https://github.com/SbinSho/JSPModel1_Project/blob/master/img/%EB%B9%84%EB%B0%80%EB%B2%88%ED%98%B8%EC%B0%BE%EA%B8%B0.PNG)
     
 
 > Code ( Random 함수 사용 )
 
 * /WebContent/member/passwdMail.jsp
 
-![key](https://github.com/SbinSho/BusanTour/blob/master/img/key.png)
+![key](https://github.com/SbinSho/JSPModel1_Project/blob/master/img/key.png)
 
 
-![key_mail](https://github.com/SbinSho/BusanTour/blob/master/img/key_mail.png)
+![key_mail](https://github.com/SbinSho/JSPModel1_Project/blob/master/img/key_mail.png)
 
 * Code 설명 ( Random 함수 사용 )
     * 난수 발생을 위한 Random 클래스를 생성
@@ -142,7 +142,7 @@
     * 반복문을 이용하여 5번 반복동안, 26미만의 난수 발생 후 숫자 97을 더하고, char 형변환 후 문자열 key에 입함
     * 메일 전송 작업은 위의 '입력받은 데이터로 JavaMail API 사용'과 동일함
        
-> [Github에 저장된 패스워드 체크 코드 확인하기](https://github.com/SbinSho/BusanTour/blob/master/WebContent/member/passwdMail.jsp)    
+> [Github에 저장된 패스워드 체크 코드 확인하기](https://github.com/SbinSho/JSPModel1_Project/blob/master/WebContent/member/passwdMail.jsp)    
     
 #### 4. 카카오 우편 API
 - 개발 동기
@@ -154,15 +154,15 @@
 
 > 우편번호 검색 기능
 
-![kakaoAPI](https://github.com/SbinSho/BusanTour/blob/master/img/kakao.png)
+![kakaoAPI](https://github.com/SbinSho/JSPModel1_Project/blob/master/img/kakao.png)
     
 > Code ( API 사용 )
 
 * /WebContent/js/join.js
 
-![kakaoAPI](https://github.com/SbinSho/BusanTour/blob/master/img/kakaoAPI.png)
+![kakaoAPI](https://github.com/SbinSho/JSPModel1_Project/blob/master/img/kakaoAPI.png)
       
-> [Github에 저장된 KaKao API 코드 확인하기](https://github.com/SbinSho/BusanTour/blob/master/WebContent/js/join.js)
+> [Github에 저장된 KaKao API 코드 확인하기](https://github.com/SbinSho/JSPModel1_Project/blob/master/WebContent/js/join.js)
         
 ## 마치며
 ### 프로젝트의 부족한점
